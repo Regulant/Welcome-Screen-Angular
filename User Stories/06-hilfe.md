@@ -4,7 +4,7 @@
 
 Der Benutzer soll mit Klick auf "Hilfe" eine Übersicht erhalten, in der er eine Art Bedienungsanleitung findet.
 Der Aufbau der Anleitung soll so gestaltet sein, dass der Benutzer sich leicht durchnavigieren kann. Die einzelnen Punkte sollen
-in Fließtext und mit Bildern dargestellt werden. Informationen zu r IP und den Anmeldedaten, welche benötigt werden, um sich am WelcomeScreen anzumelden, 
+in Fließtext und mit Bildern dargestellt werden. Informationen zur IP und den Anmeldedaten, welche benötigt werden, um sich am WelcomeScreen anzumelden, 
 sollen sich am Anfang der Seite befinden. Zusätzlich soll eine kleine Navigationsleiste angezeigt werden, worüber man direkt an eine bestimmte Überschrift gelangt.
 
 

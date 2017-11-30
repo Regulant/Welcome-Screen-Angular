@@ -8,6 +8,7 @@ In den Kalendertagen sollen die jeweiligen Termine bereits angezeigt werden.
 - Die klassische Arbeitswoche Montag bis Freitag soll im Kalender abgebildet werden, um dem Benutzer den Überblick zu erleichtern muss das Datum des Tages und die jeweilige Kalenderwoche dazustehen
 - Um einen genaueren Einblick auf ein bestimmtes Zeitfenster zu erhalten soll man zwischen Monats-, Wochen- und Tagesansicht schalten können
 - Zum Navigieren in dem Kalender werden Navigationspfeile benutzt, man kann in den Monaten aber auch in den Jahren springen
+- Bei Doppelklick auf einen Tag kommt man zu dem Reiter "Neuer Termin" in dem das jeweilige Datum bereits ausgefüllt ist
 
 ## Akzeptanzkriterien:
 
@@ -15,3 +16,4 @@ In den Kalendertagen sollen die jeweiligen Termine bereits angezeigt werden.
 - Kalenderwoche, aktuellen Monat und Tag sichtbar
 - Navigationspfeile
 - Termine innerhalb des Tages + Urzeit abgebildet
+- Doppelklick auf Tag -> Link zu "Neuer Termin"

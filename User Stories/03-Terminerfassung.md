@@ -1,7 +1,7 @@
 # User Story - Welcome Screen Angular
 
 ## Beschreibung:
-Als Benutzer möchte ich, dass alle Kunden mit ihrem vollständigen Namen, Titel, Anrede sowie der vertretenden Firma aufgenommen werden. Die Auswahl der Anrede sowie der Uhrzeit soll via dropdown Menüs funktionieren. Zusätzlich wird der Ansprechperson des Kunden mit eingetragen. Nach Abschluss soll ein Eintrag in der Listenansicht dazu erscheinen.
+Als Benutzer möchte ich, dass alle Kunden mit ihrem vollständigen Namen, Titel, Anrede sowie der vertretenden Firma aufgenommen werden. Die Auswahl der Anrede sowie der Uhrzeit soll via dropdown Menüs funktionieren. Zusätzlich wird die Ansprechperson des Kunden mit eingetragen. Nach Abschluss soll ein Eintrag in der Listenansicht dazu erscheinen.
 
 
 ## Akzeptanzkriterien:

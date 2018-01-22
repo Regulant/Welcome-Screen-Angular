@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { LayoutComponent } from './layout/layout.component';
 import { NeuerTerminComponent } from './neuer-termin/neuer-termin.component';
 import { TerminListeComponent } from './termin-liste/termin-liste.component';
+import { HelpComponent } from './help/help.component';
 
 
 @NgModule({
@@ -13,7 +14,8 @@ import { TerminListeComponent } from './termin-liste/termin-liste.component';
     AppComponent,
     LayoutComponent,
     NeuerTerminComponent,
-    TerminListeComponent
+    TerminListeComponent,
+    HelpComponent
   ],
   imports: [
     BrowserModule

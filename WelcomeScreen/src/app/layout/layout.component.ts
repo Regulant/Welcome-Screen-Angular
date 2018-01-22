@@ -6,6 +6,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./layout.component.css']
 })
 export class LayoutComponent implements OnInit {
+  element: String;
+
+  clicker(element){
+   console.log("Test")
+  }
 
   constructor() { }
 

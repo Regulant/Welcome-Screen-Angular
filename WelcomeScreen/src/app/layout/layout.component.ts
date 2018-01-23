@@ -8,7 +8,7 @@ import { HelpComponent } from '../help/help.component';
 })
 export class LayoutComponent implements OnInit {
 
-  help: boolean = false;
+  help: boolean = false; //ABÄNDERN AUF FALSE WENN FERTIG!!
   neuerTermin: boolean = false;
   terminListe: boolean = false;
 

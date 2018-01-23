@@ -7,6 +7,12 @@ import { LayoutComponent } from './layout/layout.component';
 import { NeuerTerminComponent } from './neuer-termin/neuer-termin.component';
 import { TerminListeComponent } from './termin-liste/termin-liste.component';
 import { HelpComponent } from './help/help.component';
+import { CommonModule } from '@angular/common';
+import { FormsModule } from '@angular/forms';
+import { CalendarModule } from 'angular-calendar';
+import { NgbModalModule } from '@ng-bootstrap/ng-bootstrap';
+
+
 
 
 @NgModule({
@@ -15,10 +21,15 @@ import { HelpComponent } from './help/help.component';
     LayoutComponent,
     NeuerTerminComponent,
     TerminListeComponent,
-    HelpComponent
+    HelpComponent,
+ 
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    CommonModule,
+    FormsModule,
+    NgbModalModule.forRoot(),
+    CalendarModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]

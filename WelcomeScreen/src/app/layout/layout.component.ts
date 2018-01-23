@@ -12,8 +12,21 @@ export class LayoutComponent implements OnInit {
   neuerTermin: boolean = false;
   terminListe: boolean = false;
 
-  test(){
-    console.log("TEST");
+  showOnlyOneElement(s: String){
+    if(s == "help"){
+      this.help = true;
+      this.neuerTermin = false;
+      this.terminListe = false;
+    }else if(s == "neuerTermin"){
+      this.help = false;
+      this.neuerTermin = true;
+      this.terminListe = false;
+    }else if(s == "terminListe"){
+      this.help = false;
+      this.neuerTermin = false;
+      this.terminListe = true;
+    }
+
   }
 
   constructor() { }

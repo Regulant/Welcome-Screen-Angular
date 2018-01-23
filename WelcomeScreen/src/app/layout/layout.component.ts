@@ -9,6 +9,8 @@ import { HelpComponent } from '../help/help.component';
 export class LayoutComponent implements OnInit {
 
   help: boolean = false;
+  neuerTermin: boolean = false;
+  terminListe: boolean = false;
 
   test(){
     console.log("TEST");

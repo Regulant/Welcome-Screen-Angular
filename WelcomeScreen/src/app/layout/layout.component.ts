@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { HelpComponent } from '../help/help.component';
 
 @Component({
   selector: 'app-layout',
@@ -6,10 +7,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./layout.component.css']
 })
 export class LayoutComponent implements OnInit {
-  element: String;
 
-  clicker(element){
-   console.log("Test")
+  help: boolean = false;
+
+  test(){
+    console.log("TEST");
   }
 
   constructor() { }

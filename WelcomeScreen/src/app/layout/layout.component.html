@@ -38,7 +38,7 @@
           </a>
         </li>
         <li>
-          <a href="#">
+          <a href="#" (click)="help = !help">
             <span class="glyphicon glyphicon-info-sign"></span>
             Hilfe
           </a>
@@ -53,3 +53,8 @@
     </div>
   </div>
 </nav>
+<div class="content" *ngIf="help">
+  <app-help >  
+  </app-help> 
+</div>
+

@@ -7,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TerminListeComponent implements OnInit {
 
+  pageTitle: string ="Termine"
   constructor() { }
 
   ngOnInit() {

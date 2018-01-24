@@ -21,8 +21,7 @@ import { NgbModalModule } from '@ng-bootstrap/ng-bootstrap';
     LayoutComponent,
     NeuerTerminComponent,
     TerminListeComponent,
-    HelpComponent,
- 
+    HelpComponent 
   ],
   imports: [
     BrowserModule,

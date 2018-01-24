@@ -14,13 +14,13 @@
           </a>
         </li>
         <li>
-          <a href="#" (click)="terminListe = true">
+          <a href="#" (click)=" showOnlyOneElement('terminListe')">
             <span class="glyphicon glyphicon-list"></span>
             Termine
           </a>
         </li>
         <li>
-          <a href="#" (click)="neuerTermin = true">
+          <a href="#" (click)="showOnlyOneElement('neuerTermin')">
             <span class="glyphicon glyphicon-plus"></span>
             Neuer Termin
           </a>
@@ -38,7 +38,7 @@
           </a>
         </li>
         <li>
-          <a href="#" (click)="help = true">
+          <a href="#" (click)="showOnlyOneElement('help')" >
             <span class="glyphicon glyphicon-info-sign"></span>
             Hilfe
           </a>
@@ -55,15 +55,12 @@
 </nav>
 
 <div *ngIf="terminListe">
-  {{ showOnlyOneElement("terminListe")}}
     <app-termin-liste></app-termin-liste>
 </div>
 <div *ngIf="neuerTermin">
-    {{ showOnlyOneElement("neuerTermin")}}
     <app-neuer-termin></app-neuer-termin>
 </div>
 <div *ngIf="help">
-    {{ showOnlyOneElement("help")}}
   <app-help ></app-help> 
 </div>
 

@@ -12,19 +12,34 @@ export class LayoutComponent implements OnInit {
   neuerTermin: boolean = false;
   terminListe: boolean = false;
 
+  show: String = null;
+
+  setString(){
+    if(this.help){
+      this.show = '<app-help></app-help>';
+    }else if(this.neuerTermin){
+      this.show = "<app-neuer-termin></app-neuer-termin>";
+    }else if(this.terminListe){
+      this.show = "<app-termin-liste></app-termin-liste>";
+    }
+  }
+
   showOnlyOneElement(s: String){
     if(s == "help"){
       this.help = true;
       this.neuerTermin = false;
       this.terminListe = false;
+      this.setString();
     }else if(s == "neuerTermin"){
       this.help = false;
       this.neuerTermin = true;
       this.terminListe = false;
+      this.setString();
     }else if(s == "terminListe"){
       this.help = false;
       this.neuerTermin = false;
       this.terminListe = true;
+      this.setString();
     }
 
   }
@@ -33,5 +48,4 @@ export class LayoutComponent implements OnInit {
 
   ngOnInit() {
   }
-
 }

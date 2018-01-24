@@ -1,8 +1,3 @@
-<p>
-  neuer-termin works!
-</p>
-
-<button type="button" class="btn btn-primary">Test</button>
 
 <div class="container">
   <div class="panel panel-default">
@@ -15,14 +10,17 @@
 
 <div class="form-group">
 <div class="row">
+  <!-- Datum -->
   <div class="col-xs-4 col-md-4">
-    <label class="required" for="appointment_begin_date">Datum</label>
+    <label class="required" for="appointment_begin_date">{{datum}}</label>
   </div>
 </div>
 <div class="row">
   <div class="col-xs-4 col-md-4">
     <div class="input-group date">
+      <!-- Datum Eingabefeld -->
       <input class="form-control" id="appointment_begin_date" name="appointment[begin_date]" type="text" value="22.01.2018">
+      <!-- Datum Glyphicon -->
       <span class="input-group-addon"><i class="glyphicon glyphicon-calendar"></i></span>
     </div>
   </div>
@@ -30,16 +28,18 @@
 </div>
 <div class="form-group">
 <div class="row">
+
   <div class="col-xs-4 col-md-4">
-    <label class="required" for="appointment_begin_time">Uhrzeit</label>
+    <label class="required" for="appointment_begin_time">{{uhrzeit}}</label>
   </div>
 </div>
+<!-- Uhrzeit selectpicker -->
 <div class="row">
   <div class="col-xs-4 col-md-4">
-    <input id="appointment_begin_time_1i" name="appointment[begin_time(1i)]" type="hidden" value="2018">
+    <input id="appointment_begin_time_1i" name="appointment[begin_time(1i)]" type="hidden" value="2018">  <!-- ist das der standartwert?-->
 <input id="appointment_begin_time_2i" name="appointment[begin_time(2i)]" type="hidden" value="1">
 <input id="appointment_begin_time_3i" name="appointment[begin_time(3i)]" type="hidden" value="22">
-<select class="selectpicker" data-width="47.93%" id="appointment_begin_time_4i" name="appointment[begin_time(4i)]" style="display: none;">
+<select class="selectpicker" data-width="47.93%" id="appointment_begin_time_4i" name="appointment[begin_time(4i)]">
 <option value="00">00</option>
 <option value="01">01</option>
 <option value="02">02</option>
@@ -132,5 +132,19 @@
   <a href="http://192.168.15.90:9876/">Zurück</a>
 </div> <!-- /.panel-footer -->
 </div> <!-- /.panel panel-default -->
+
+
+<!-- Single button -->
+<div class="btn-group">
+    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      Action <span class="caret"></span>
+    </button>
+    <select>
+        <option value="price1">blue</option>
+        <option value="price2">green</option>
+        <option value="price3">red</option>
+    </select>
+  </div>
+
 
 </div>
